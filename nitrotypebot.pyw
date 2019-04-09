@@ -1,0 +1,28 @@
+import pyautogui, time
+
+for looper in range(0, 365):
+    time.sleep(75600)
+    pyautogui.moveTo(100, 100, duration=0.5) #wakes up computer
+    pyautogui.moveTo(200, 100, duration=0.5)
+    pyautogui.click(1340, 8, button='left')
+    pyautogui.click(418, 753, button='left')
+    time.sleep(15)
+    pyautogui.hotkey('ctrl', 't')
+    time.sleep(1)
+    pyautogui.typewrite('https://www.nitrotype.com', .1)
+    pyautogui.typewrite('\n')
+    time.sleep(10)
+    pyautogui.click(1126, 112, button='left')
+    time.sleep(1)
+    pyautogui.typewrite('yourusername', .1)
+    pyautogui.click(917, 240, button='left')
+    pyautogui.typewrite('yourpassword', .1)
+    pyautogui.typewrite('\n')
+    time.sleep(5)
+    pyautogui.click(747, 480, button='left')
+    time.sleep(5)
+    pyautogui.click(660, 645, button='left')
+    time.sleep(5)
+    pyautogui.click(1126, 112, button='left')
+    time.sleep(5)
+    pyautogui.click(1340, 8, button='left')
